@@ -1,6 +1,8 @@
 name: thingything
 on:
-  push: {}
+  push:
+    branches:
+      - main
   pull_request: {}
 jobs:
   something:

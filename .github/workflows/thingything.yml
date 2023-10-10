@@ -1,0 +1,11 @@
+name: thingything
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
+jobs:
+  something:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
